@@ -243,7 +243,7 @@ module.exports = {
 
 ## `Rule.resourceQuery`
 
-与资源查询相匹配的 [`条件`](#条件)。此选项用于测试请求字符串的查询部分（即从问号开始）。如果你需要通过 `import Foo from './foo.css?inline'` 导入 Foo，则需符合以下条件:
+与资源查询相匹配的 [`条件`](#condition)。此选项用于测试请求字符串的查询部分（即从问号开始）。如果你需要通过 `import Foo from './foo.css?inline'` 导入 Foo，则需符合以下条件:
 
 __webpack.config.js__
 
